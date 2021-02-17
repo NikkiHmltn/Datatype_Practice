@@ -6,7 +6,11 @@ namespace Datatype_Practice
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int num1 = 13;
+            int num2 = 12;
+            int num3 = num1 + num2;
+            Console.WriteLine("The sum of " + num1 + " and " + num2 + " is " + num3);
+            Console.Read();
         }
     }
 }
