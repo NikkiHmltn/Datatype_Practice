@@ -6,6 +6,9 @@ namespace Datatype_Practice
     {
         static void Main(string[] args)
         {
+            Console.ForegroundColor = ConsoleColor.DarkCyan;
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.Clear();
             int num1 = 13;
             int num2 = 12;
             int num3 = num1 + num2;
@@ -57,6 +60,7 @@ namespace Datatype_Practice
             int asciiVal = Console.Read();
             Console.Write("ASCII value is {0}", asciiVal);
             Console.ReadKey();
+
         }
     }
 }
