@@ -33,6 +33,30 @@ namespace Datatype_Practice
             Console.WriteLine(message);
             Console.WriteLine(capsMsg);
             Console.WriteLine(lowerMsg);
+
+            //value type holds the value directly on its own memory space
+            //uses a heap to store the value
+            //value types: int, float, long, double, char, bool, decimal, double, etc.
+
+            //reference type is a variable that stores memory location of the actual data
+            //stores memory reference of the data and not the actual data
+            //string, class, array, etc. typically need more space and saves space
+
+            //Console.Write("hello"); //prints and keeps the cursor on the same line
+            //Console.WriteLine("hello from here~"); //prints and puts cursor on the next line
+            //Console.Read(); //takes a single input of type string and returns ASCII value of that input
+            ////ASCII code is computer interpretation of characters, 256 values
+            //Console.ReadLine(); //takes a string or int and returns it as the Output value
+            //Console.ReadKey(); //takes a single input of type string and returns key info
+
+            Console.Write("Enter a letter and press enter: ");
+            string readInput = Console.ReadLine();
+            Console.WriteLine("You have entered {0}", readInput);
+
+            Console.Write("Enter a letter and press enter: ");
+            int asciiVal = Console.Read();
+            Console.Write("ASCII value is {0}", asciiVal);
+            Console.ReadKey();
         }
     }
 }
