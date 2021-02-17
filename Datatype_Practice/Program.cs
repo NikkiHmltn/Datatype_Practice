@@ -26,6 +26,13 @@ namespace Datatype_Practice
             float sumF = f2 + f1;
             Console.WriteLine(sumF);
 
+            string myname = "Nikki";
+            string message = "My name is " + myname;
+            string capsMsg = message.ToUpper();
+            string lowerMsg = message.ToLower();
+            Console.WriteLine(message);
+            Console.WriteLine(capsMsg);
+            Console.WriteLine(lowerMsg);
         }
     }
 }
