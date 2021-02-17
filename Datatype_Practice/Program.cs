@@ -2,13 +2,17 @@
 
 namespace Datatype_Practice
 {
+    //class names ClientActivity
     class Program
-    {
+    {   //method name like CalculateValue
+        //method args like firstNumber
         static void Main(string[] args)
         {
+            //local variables like itemCount
             Console.ForegroundColor = ConsoleColor.DarkCyan;
             Console.BackgroundColor = ConsoleColor.Black;
             Console.Clear();
+            //variables like camelcase too!
             int num1 = 13;
             int num2 = 12;
             int num3 = num1 + num2;
@@ -37,6 +41,17 @@ namespace Datatype_Practice
             Console.WriteLine(capsMsg);
             Console.WriteLine(lowerMsg);
 
+
+            double myDouble = 13.37;
+            int myInt;
+
+            //cast double to int;
+
+            myInt = (int)myDouble;
+            //converts double to the int, removing the decimal values
+            Console.WriteLine(myInt);
+
+
             //value type holds the value directly on its own memory space
             //uses a heap to store the value
             //value types: int, float, long, double, char, bool, decimal, double, etc.
@@ -60,6 +75,7 @@ namespace Datatype_Practice
             int asciiVal = Console.Read();
             Console.Write("ASCII value is {0}", asciiVal);
             Console.ReadKey();
+
 
         }
     }
